@@ -1,0 +1,9 @@
+const expect = require('expect');
+const supertest = require('supertest');
+
+const {app} = require('./../server')
+const {Todo} = require('./../models/todo');
+
+describe('POST todos', () => {
+  it()
+});
